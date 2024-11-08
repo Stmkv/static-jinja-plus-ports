@@ -1,8 +1,8 @@
 FROM ubuntu:24.04
 
 
-ARG VERSION=0.1.0
-ARG CHECKSUM=3555bcfd670e134e8360ad934cb5bad1bbe2a7dad24ba7cafa0a3bb8b23c6444
+ARG VERSION=0.1.1
+ARG CHECKSUM=30d9424df1eddb73912b0e2ad5375fa2c876c8e30906bec91952dfb75dcf220b
 
 RUN apt-get update && apt-get install -y python3 python3-pip python3.12-venv && rm -rf /var/lib/apt/lists/*
 WORKDIR /StaticJinja
