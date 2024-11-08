@@ -24,6 +24,15 @@
 
 Примеры:
 
+### latest version
+
+Перейти в папку `/v0.1.0&0.1.0/ubuntu` или `/v0.1.0&0.1.0/python-slim`
+
+```
+docker build -t stmkv/static-jinja-plus:latest-<выбранная версия> .
+```
+
+
 ### develop ubuntu
 
 ```Dockerfile
